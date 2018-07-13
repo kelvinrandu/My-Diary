@@ -32,8 +32,8 @@ h1 {
   font-weight: normal;
   margin-bottom: 10px;
   margin-left: 250px;
-  margin-top: 30px;
-  text-align: center;
+
+  margin-top: 30px; text-align: center;
   }
 
 .button_1{
@@ -223,13 +223,21 @@ footer{
 }
 #quote {
     float: right;
-    margin-top: 10px;
+    margin-top: 70px;
     margin-right: 100px;
     width: 30%;
     padding: 10px;
     height: auto;
     background-color:#e0ebeb
 }
+.add-entry {
+text-shadow: 3px 2px red;
+font-size: 30px;
+line-height: 50px;
+margin-bottom: 20px;
+padding: 10px;
+}
+/*toggle switch label*/
 .notify {
 text-shadow: 3px 2px red;
 font-size: 30px;
@@ -331,6 +339,7 @@ input:checked + .slider:before {
 .container {
     padding: 2px 16px;
 }
+
 a.button1{
  display:inline-block;
  padding:0.35em 1.2em;
@@ -362,8 +371,8 @@ body {
 .main {
   position : relative;
 }
-
-
+/*finaly a blockquote to motivate the my diary user*/
+/*blockquote*/
 .mb-wrap {
   margin : 20px auto;
   padding : 20px;
