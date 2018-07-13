@@ -9,9 +9,9 @@
 				<body>
 					<div id="mySidenav" class="sidenav">
 						<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-						<a href="dashboard.html">Home</a>
-						<a href="#">Add entry</a>
-						<a href="setting.html">Settings</a>
+						<a href="dashboard">Home</a>
+						<a href="add.html">Add entry</a>
+						<a href="#">Settings</a>
 						<a href="index.html">logout</a>
 					</div>
 					<span class="push-left" style="" onclick="openNav()">&#9776; My Diary</span>
@@ -21,32 +21,37 @@
 					<div id="content">
 						<article>
 							<section id="profile">
-								<div class="add-entry">
-									<form class="" action="index.html" method="post">
-
-									<input type="text" name="title" placeholder="title">
-									<textarea placeholder="write here" cols="30" rows="20"></textarea>
-									<button class="button_1">save</button>
-
-								</form>
-								</div>
-							</section>
-							<section id="quote">
-								<div class="mb-wrap mb-style-2">
-									<blockquote >
-										<p>  Either write something worth reading or do something worth writing</p>
-									</blockquote>
-									<div class="mb-attribution">
-										<p class="mb-author">
+								<div class="card">
+									<img src="images/avatar2.png" alt="Avatar" style="width:100%">
+										<div class="container">
+											<h4>John Doe</h4>
+											<p>Total entries: 3</p>
+										</div>
+										<div class="reminder">
+											<label class="notify">Get daily reminder</label>
+											<label class="switch">
+												<input type="checkbox">
+													<span class="slider round"></span>
+												</label>
+											</div>
+										</div>
+									</section>
+									<section id="quote">
+										<div class="mb-wrap mb-style-2">
+											<blockquote >
+												<p>  Either write something worth reading or do something worth writing</p>
+											</blockquote>
+											<div class="mb-attribution">
+												<p class="mb-author">
             Benjamin Franklin
           </p>
-									</div>
-								</div>
-								<!--#mb-wrap-->
-							</section>
-						</article>
-					</div>
-					<script>
+											</div>
+										</div>
+										<!--#mb-wrap-->
+									</section>
+								</article>
+							</div>
+							<script>
 function openNav() {
     document.getElementById("mySidenav").style.width = "250px";
 }
@@ -74,8 +79,8 @@ for (i = 0; i < acc.length; i++) {
     });
 }
 
-					</script>
-					<script>
+							</script>
+							<script>
 // Get the modal
 var modal = document.getElementById('myModal');
 var modal1 = document.getElementById('myModal1');
@@ -88,8 +93,8 @@ var btn1 = document.getElementById("myBtn1");
 var btn2 = document.getElementById("myBtn2");
 
 
-// Get the
-						<span> element that closes the modal
+// Get the <span> element that closes the modal
+
 var span = document.getElementsByClassName("close")[0];
 
 // When the user clicks on the button, open the modal
@@ -104,7 +109,7 @@ btn2.onclick = function() {
 }
 
 // When the user clicks on
-							<span> (x), close the modal
+									<span> (x), close the modal
 span.onclick = function() {
     modal.style.display = "none";
 }
@@ -116,6 +121,6 @@ window.onclick = function(event) {
     }
 }
 
-							</script>
-						</body>
-					</html>
+									</script>
+								</body>
+							</html>
