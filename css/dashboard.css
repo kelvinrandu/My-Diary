@@ -216,7 +216,7 @@ footer{
     float: left;
   	margin-top: 10px;
     margin-left: 250px;
-    width: 30%;
+    width: auto;
     padding: 10px;
     height: auto;
     background-color:#e0ebeb
@@ -225,7 +225,7 @@ footer{
     float: right;
     margin-top: 70px;
     margin-right: 100px;
-    width: 30%;
+    width: auto;
     padding: 10px;
     height: auto;
     background-color:#e0ebeb
@@ -452,4 +452,10 @@ body {
   padding-top : 10px;
   text-shadow : 0 1px 1px rgba(255, 255, 255, 0.1);
   text-transform : uppercase;
+}
+/* Use a media query to add a breakpoint at 800px: */
+@media screen and (max-width: 800px) {
+  .left, .main, .card {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
 }
