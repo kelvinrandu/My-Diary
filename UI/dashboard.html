@@ -25,15 +25,37 @@
       <h1>My Entries </h1>
   <section id="listEntries">
     <!-- get diary entries -->
+
+ <!-- Open The Modal -->
+<button id="myBtn">Add entry</button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <form class="" action="index.html" method="post">
+
+      <input type="text" name="title" placeholder="title">
+      <textarea placeholder="write here" cols="20" rows="10"></textarea>
+      <button class="button_1">save</button>
+
+    </form>
+  </div>
+
+</div>
+
+       
 	   <a href="../UI/each-entry.html"><button class="accordion">Graduation day</button></a>
      <a href="../UI/each-entry.html"><button class="accordion">Just another boring tuesday</button></a>
      <a href="../UI/each-entry.html"><button class="accordion">Boy day out</button></a>
     </section>
     </article>
   </div>
-    <footer>
-
-    </footer>
+  <footer class="footer">
+    <p>&copy; My diary 2018<p>
+  </footer>
 
 
  <script src="./js/app.js" type="text/javascript"></script>

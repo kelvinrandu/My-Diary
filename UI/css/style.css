@@ -8,10 +8,11 @@ html,body{
     font-family: sans-serif;
 }
 .banner {
-  color: #d54d7b;
+  /* color: #d54d7b; */
+  /* text-shadow: 3px 2px #d54d7b; */
+  text-shadow: 2px 2px #d54d7b;
   font-family: "Great Vibes", cursive;
   font-size: 100px;
-  text-shadow: 0 1px 1px #fff;
   line-height: 165px;
   margin-bottom: 10px;
   margin-top: 30px; text-align: center;
@@ -65,6 +66,10 @@ h1{
     text-align: center;
     font-size: 22px;
 }
+.push-left {
+    text-shadow: 3px 2px #d54d7b;
+
+    }
 .login-box p{
     margin: 0;
     padding: 0;
@@ -96,8 +101,7 @@ h1{
 }
 .forgot-password
 {
-
-    color: #fff;
+    color: #000;
     text-align: center;
 }
 .login-box input[type="submit"]:hover
@@ -109,8 +113,9 @@ h1{
 
 .login-box a{
     text-decoration: none;
-    font-size: 14px;
-    color: #fff;
+    font-size: 16px;
+    color:#ffffff;
+    font-weight: 900;
 }
 .login-box a:hover
 {
@@ -168,4 +173,7 @@ a.ghost:hover, a.ghost:focus {
   background-color: #d54d7b;
   color: #000;
   -webkit-transition: color 0.3s ease-in, background-color 0.3s ease-in;
+}
+title {
+    display: none;
 }
