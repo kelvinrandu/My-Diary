@@ -101,7 +101,7 @@ h1{
 }
 .forgot-password
 {
-    color: #000;
+    color: rgb(184, 22, 22);
     text-align: center;
 }
 .login-box input[type="submit"]:hover
@@ -114,7 +114,7 @@ h1{
 .login-box a{
     text-decoration: none;
     font-size: 16px;
-    color:#ffffff;
+    color: red ;
     font-weight: 900;
 }
 .login-box a:hover
